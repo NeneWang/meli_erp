@@ -413,7 +413,7 @@ export default function Home() {
                                         /> %
                                     </p>
                                     <p>
-                                        Precio Total: ${((precioRedondeo(item.precio) - (precioRedondeo(item.precio) * item.discount) / 100) * item.quantity).toFixed(2)}
+                                        Precio Total: ${((item.Precio - (item.Precio * item.discount) / 100) * item.quantity).toFixed(2)}
                                     </p>
                                     <p>
                                         Codigo de Barra: {item?.['Cod. Barra']}
