@@ -315,14 +315,6 @@ export default function Home() {
                 <div className={styles.barcodeInput}>
                     <label htmlFor="actualBarcode">Last Scanned Barcode:</label>
                     <p>{actualBarcode}</p>
-                    {/* <input
-            type="text"
-            id="actualBarcode"
-            value={actualBarcode}
-            onChange={(e) => handleManualBarcodeChange(e)}
-            placeholder="Scan or enter barcode"
-            className={styles.input}
-          /> */}
                 </div>
 
                 {/* Flex Container for Search and Cart */}
