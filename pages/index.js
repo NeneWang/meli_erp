@@ -69,6 +69,11 @@ export default function Home() {
     const priceRef = useRef(null);
     const searchInputRef = useRef(null);
 
+    React.useEffect(() => {
+        // Recalculate the total whenever the cart changes
+        updateTotal();
+    }, [cart]);
+
     React.useEffect(async () => {
 
         let initalData = backupProductsData;
