@@ -22,6 +22,11 @@ const enumProviders = {
 }
 
 
+const precioRedondeo = (precio) => {
+  return Math.round(precio);
+}
+
+
 async function downloadS3Object(url) {
     try {
       const fetchResponse = await fetch(url);
@@ -223,7 +228,7 @@ export default function Home() {
                 existingProduct.quantity += 1;
                 return [...prevCart];
             }
-            return [...prevCart, { ...product, totalPrice: product.Precio, quantity: 1, discount: 0 }];
+            return [...prevCart, { ...product, totalPrice: precioRedondeo(product.Precio), quantity: 1, discount: 0 }];
         });
         updateTotal();
     };
@@ -338,7 +343,7 @@ export default function Home() {
                                         <p><strong>{product.Detalle}</strong></p>
                                         <p>Codigo de Barra: {product['Cod. Barra']}</p>
 
-                                        <p>Precio: ${product.Precio}</p>
+                                        <p>Precio: ${precioRedondeo(product.Precio)}</p>
                                         <button onClick={() => addToCart(product)}>Agregar al Carrito</button>
                                     </div>
                                 ))}
@@ -361,7 +366,7 @@ export default function Home() {
                                             ref={priceRef}
                                             type="number"
 
-                                            value={item.Precio}
+                                            value={precioRedondeo(item.Precio)}
                                             onChange={(e) => updatePrice(index, parseFloat(e.target.value))}
                                             min="0"
 
@@ -408,7 +413,7 @@ export default function Home() {
                                         /> %
                                     </p>
                                     <p>
-                                        Precio Total: ${((item.Precio - (item.Precio * item.discount) / 100) * item.quantity).toFixed(2)}
+                                        Precio Total: ${((precioRedondeo(item.precio) - (precioRedondeo(item.precio) * item.discount) / 100) * item.quantity).toFixed(2)}
                                     </p>
                                     <p>
                                         Codigo de Barra: {item?.['Cod. Barra']}
