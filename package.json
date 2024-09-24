@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.1",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "js-confetti": "^0.12.0",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-timer-hook": "^3.0.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

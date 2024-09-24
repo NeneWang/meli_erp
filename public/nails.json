@@ -1,0 +1,452 @@
+[
+    {
+        "question": "¿Qué es la manicuría?",
+        "options": [
+            { "label": "A", "value": "Cuidado y arreglo de las uñas de las manos" },
+            { "label": "B", "value": "Corte de cabello" },
+            { "label": "C", "value": "Exfoliación de la piel" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cuál es la función principal de una lima de uñas?",
+        "options": [
+            { "label": "A", "value": "Cortar las uñas" },
+            { "label": "B", "value": "Dar forma y suavizar los bordes" },
+            { "label": "C", "value": "Pintar las uñas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué herramienta se utiliza para cortar las cutículas?",
+        "options": [
+            { "label": "A", "value": "Alicate de cutículas" },
+            { "label": "B", "value": "Lima de uñas" },
+            { "label": "C", "value": "Pinzas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cuánto tiempo se recomienda dejar las uñas en remojo antes de un servicio de manicuría?",
+        "options": [
+            { "label": "A", "value": "1 minuto" },
+            { "label": "B", "value": "5-10 minutos" },
+            { "label": "C", "value": "30 minutos" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un esmalte base y para qué sirve?",
+        "options": [
+            { "label": "A", "value": "Un esmalte transparente para proteger las uñas" },
+            { "label": "B", "value": "Un esmalte para dar color" },
+            { "label": "C", "value": "Un esmalte para brillo" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cuántas capas de esmalte de color se deben aplicar en una manicura tradicional?",
+        "options": [
+            { "label": "A", "value": "Una" },
+            { "label": "B", "value": "Dos" },
+            { "label": "C", "value": "Tres" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un top coat y para qué se utiliza?",
+        "options": [
+            { "label": "A", "value": "Un esmalte transparente para sellar y dar brillo" },
+            { "label": "B", "value": "Un producto para suavizar cutículas" },
+            { "label": "C", "value": "Un removedor de esmalte" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cuál es la función de la cutícula?",
+        "options": [
+            { "label": "A", "value": "Proteger la base de la uña" },
+            { "label": "B", "value": "Aumentar el crecimiento de la uña" },
+            { "label": "C", "value": "Dar color a la uña" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Por qué es importante desinfectar las herramientas de manicuría?",
+        "options": [
+            { "label": "A", "value": "Para mantenerlas en buen estado" },
+            { "label": "B", "value": "Para prevenir infecciones" },
+            { "label": "C", "value": "Para que las uñas se vean mejor" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué tipo de lima es mejor para uñas naturales: metálica o de cartón?",
+        "options": [
+            { "label": "A", "value": "Metálica" },
+            { "label": "B", "value": "De cartón" },
+            { "label": "C", "value": "De vidrio" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es la manicura francesa?",
+        "options": [
+            { "label": "A", "value": "Una técnica que utiliza solo esmalte rojo" },
+            { "label": "B", "value": "Una técnica con puntas blancas y tonos naturales" },
+            { "label": "C", "value": "Una técnica que emplea solo uñas postizas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué son las uñas de gel?",
+        "options": [
+            { "label": "A", "value": "Uñas naturales fortalecidas con esmalte" },
+            { "label": "B", "value": "Extensiones de uñas hechas con gel" },
+            { "label": "C", "value": "Uñas pintadas con esmalte permanente" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es la manicura en seco?",
+        "options": [
+            { "label": "A", "value": "Una técnica sin uso de agua" },
+            { "label": "B", "value": "Una técnica usando solo esmalte en polvo" },
+            { "label": "C", "value": "Una técnica para uñas acrílicas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cuál es la diferencia entre un esmalte tradicional y un esmalte en gel?",
+        "options": [
+            { "label": "A", "value": "El esmalte en gel dura más tiempo" },
+            { "label": "B", "value": "El esmalte en gel es más fácil de quitar" },
+            { "label": "C", "value": "El esmalte tradicional es más brillante" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué son las uñas acrílicas?",
+        "options": [
+            { "label": "A", "value": "Extensiones de uñas creadas con gel" },
+            { "label": "B", "value": "Uñas naturales endurecidas" },
+            { "label": "C", "value": "Extensiones de uñas creadas con polvo acrílico" }
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "¿Qué es un removedor de esmalte sin acetona?",
+        "options": [
+            { "label": "A", "value": "Un quitaesmalte menos agresivo" },
+            { "label": "B", "value": "Un producto para endurecer las uñas" },
+            { "label": "C", "value": "Un esmalte transparente" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es la técnica de encapsulado en uñas?",
+        "options": [
+            { "label": "A", "value": "Aplicación de esmalte en capas gruesas" },
+            { "label": "B", "value": "Encapsulado de decoraciones dentro del gel o acrílico" },
+            { "label": "C", "value": "Uso de una capa protectora sobre las uñas naturales" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué se debe hacer antes de aplicar uñas postizas?",
+        "options": [
+            { "label": "A", "value": "Pintar las uñas" },
+            { "label": "B", "value": "Limpiar y desinfectar las uñas" },
+            { "label": "C", "value": "Cortar las cutículas profundamente" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué tipo de productos se utilizan para suavizar las cutículas?",
+        "options": [
+            { "label": "A", "value": "Esmaltes" },
+            { "label": "B", "value": "Cremas o geles específicos" },
+            { "label": "C", "value": "Acetona" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cómo se retiran las uñas de gel?",
+        "options": [
+            { "label": "A", "value": "Cortándolas" },
+            { "label": "B", "value": "Remojando en acetona" },
+            { "label": "C", "value": "Limándolas por completo" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es una infección por hongos en las uñas?",
+        "options": [
+            { "label": "A", "value": "Infección viral en la piel" },
+            { "label": "B", "value": "Infección causada por hongos en las uñas" },
+            { "label": "C", "value": "Infección bacteriana en las uñas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué precauciones se deben tomar al trabajar con uñas dañadas?",
+        "options": [
+            { "label": "A", "value": "Aplicar productos agresivos" },
+            { "label": "B", "value": "Utilizar esmaltes de colores oscuros" },
+            { "label": "C", "value": "Evitar productos agresivos y recomendar atención médica" }
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "¿Por qué es importante hidratar las cutículas?",
+        "options": [
+            { "label": "A", "value": "Para mantenerlas suaves y proteger la uña" },
+            { "label": "B", "value": "Para que las uñas crezcan más rápido" },
+            { "label": "C", "value": "Para cambiar el color de las uñas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es una uña encarnada?",
+        "options": [
+            { "label": "A", "value": "Una uña que crece en dirección incorrecta" },
+            { "label": "B", "value": "Una uña débil" },
+            { "label": "C", "value": "Una uña que se cae fácilmente" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué productos se utilizan para desinfectar las herramientas de manicuría?",
+        "options": [
+            { "label": "A", "value": "Esmalte transparente" },
+            { "label": "B", "value": "Alcohol isopropílico o soluciones desinfectantes" },
+            { "label": "C", "value": "Agua y jabón" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es la psoriasis en las uñas?",
+        "options": [
+            { "label": "A", "value": "Una afección que provoca decoloración y engrosamiento de las uñas" },
+            { "label": "B", "value": "Una infección bacteriana en las uñas" },
+            { "label": "C", "value": "Un hongo que debilita las uñas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cómo se deben limpiar los pinceles de nail art después de usarlos?",
+        "options": [
+            { "label": "A", "value": "Con agua" },
+            { "label": "B", "value": "Con acetona o limpiador de pinceles" },
+            { "label": "C", "value": "Con esmalte transparente" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el síndrome de la uña verde?",
+        "options": [
+            { "label": "A", "value": "Una afección genética" },
+            { "label": "B", "value": "Una infección bacteriana que causa decoloración verde" },
+            { "label": "C", "value": "Una reacción alérgica al esmalte" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué precauciones se deben tomar con clientes alérgicos a ciertos productos de manicuría?",
+        "options": [
+            { "label": "A", "value": "Usar productos hipoalergénicos" },
+            { "label": "B", "value": "No realizar el servicio" },
+            { "label": "C", "value": "Aplicar esmaltes fuertes" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cuál es la importancia del uso de guantes durante un servicio de manicuría?",
+        "options": [
+            { "label": "A", "value": "Para mantener las manos suaves" },
+            { "label": "B", "value": "Para prevenir infecciones" },
+            { "label": "C", "value": "Para aplicar mejor el esmalte" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el nail art?",
+        "options": [
+            { "label": "A", "value": "Decoración artística de las uñas" },
+            { "label": "B", "value": "Cortar las uñas en diferentes formas" },
+            { "label": "C", "value": "Usar solo colores neutros" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es la técnica ombré en uñas?",
+        "options": [
+            { "label": "A", "value": "Esmalte de color sólido" },
+            { "label": "B", "value": "Esmalte brillante" },
+            { "label": "C", "value": "Un degradado de color" }
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "¿Qué son las uñas stiletto?",
+        "options": [
+            { "label": "A", "value": "Uñas cortas y cuadradas" },
+            { "label": "B", "value": "Uñas largas y puntiagudas" },
+            { "label": "C", "value": "Uñas redondas y naturales" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es la técnica marble en uñas?",
+        "options": [
+            { "label": "A", "value": "Aplicación de esmalte blanco" },
+            { "label": "B", "value": "Técnica para imitar el mármol en las uñas" },
+            { "label": "C", "value": "Uso de esmalte mate" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué son las uñas cromadas?",
+        "options": [
+            { "label": "A", "value": "Uñas con acabado metálico brillante" },
+            { "label": "B", "value": "Uñas pintadas de negro" },
+            { "label": "C", "value": "Uñas con esmalte mate" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es el efecto espejo en uñas?",
+        "options": [
+            { "label": "A", "value": "Un acabado que refleja la luz como un espejo" },
+            { "label": "B", "value": "Uñas pintadas con colores oscuros" },
+            { "label": "C", "value": "Uñas con acabado mate" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué son las uñas coffin o ballerina?",
+        "options": [
+            { "label": "A", "value": "Uñas cortas y redondeadas" },
+            { "label": "B", "value": "Uñas largas con la punta cuadrada" },
+            { "label": "C", "value": "Uñas en forma de almendra" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué tipo de decoraciones se pueden encapsular en uñas de gel o acrílico?",
+        "options": [
+            { "label": "A", "value": "Flores secas, glitter, láminas metálicas" },
+            { "label": "B", "value": "Esmaltes de colores" },
+            { "label": "C", "value": "Limaduras de uñas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es una manicura con piedras preciosas?",
+        "options": [
+            { "label": "A", "value": "Decoración de uñas con cristales o gemas" },
+            { "label": "B", "value": "Uñas pintadas de colores metálicos" },
+            { "label": "C", "value": "Uñas decoradas con pegatinas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es la técnica de stamping en nail art?",
+        "options": [
+            { "label": "A", "value": "Uso de un sello para transferir diseños a las uñas" },
+            { "label": "B", "value": "Aplicación de esmalte en capas" },
+            { "label": "C", "value": "Uso de pegatinas para decorar las uñas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué diferencia hay entre un esmalte normal y un esmalte vegano?",
+        "options": [
+            { "label": "A", "value": "El esmalte vegano no contiene ingredientes de origen animal" },
+            { "label": "B", "value": "El esmalte vegano es más duradero" },
+            { "label": "C", "value": "El esmalte vegano tiene más brillo" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es un deshidratador de uñas y para qué se utiliza?",
+        "options": [
+            { "label": "A", "value": "Para eliminar la humedad y mejorar la adhesión del esmalte" },
+            { "label": "B", "value": "Para secar rápidamente el esmalte" },
+            { "label": "C", "value": "Para hidratar las cutículas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es un primer en manicuría?",
+        "options": [
+            { "label": "A", "value": "Un producto que se aplica antes del esmalte para mejorar la adhesión" },
+            { "label": "B", "value": "Un esmalte de color" },
+            { "label": "C", "value": "Un producto para quitar el esmalte" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Cuál es la función de un endurecedor de uñas?",
+        "options": [
+            { "label": "A", "value": "Proteger las uñas del agua" },
+            { "label": "B", "value": "Fortalecer uñas débiles y quebradizas" },
+            { "label": "C", "value": "Acelerar el crecimiento de las uñas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un quitaesmalte en crema?",
+        "options": [
+            { "label": "A", "value": "Un producto para remover esmalte sin resecar las uñas" },
+            { "label": "B", "value": "Un esmalte transparente" },
+            { "label": "C", "value": "Un endurecedor de uñas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es la técnica de dipping powder?",
+        "options": [
+            { "label": "A", "value": "Un sistema donde se sumergen las uñas en polvo pigmentado" },
+            { "label": "B", "value": "Una técnica para aplicar esmalte mate" },
+            { "label": "C", "value": "Una técnica para uñas naturales" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué tipo de productos se utilizan para hidratar las manos después de una manicura?",
+        "options": [
+            { "label": "A", "value": "Acetona" },
+            { "label": "B", "value": "Cremas hidratantes y aceites" },
+            { "label": "C", "value": "Esmalte transparente" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un secador de uñas UV/LED?",
+        "options": [
+            { "label": "A", "value": "Un dispositivo para curar esmaltes de gel" },
+            { "label": "B", "value": "Un ventilador para secar las uñas" },
+            { "label": "C", "value": "Un calentador para uñas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué ingredientes suelen evitarse en los esmaltes \"5-free\"?",
+        "options": [
+            { "label": "A", "value": "Esmalte de color" },
+            { "label": "B", "value": "Formaldehído, tolueno, DBP, resina de formaldehído, alcanfor" },
+            { "label": "C", "value": "Agua y aceite" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un gel constructor?",
+        "options": [
+            { "label": "A", "value": "Un gel espeso para crear extensiones de uñas" },
+            { "label": "B", "value": "Un esmalte para dar brillo" },
+            { "label": "C", "value": "Un producto para hidratar las cutículas" }
+        ],
+        "answer": "A"
+    }
+]

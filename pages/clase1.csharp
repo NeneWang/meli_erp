@@ -1,0 +1,25 @@
+public void EjercicioiRandom()
+{
+    int vida = Random.Range(-10);
+
+    if (vida >= 75)
+    {
+        Debug.Log("Saludable");
+    }
+    else if (vida >= 50)
+    {
+        Debug.Log("Herido");
+    }
+    else if (vida >= 25)
+    {
+        Debug.Log("Grave");
+    }
+    else if (vida >= 0)
+    {
+        Debug.Log("Critico");
+    }
+    else
+    {
+        Debug.Log("Muerto como yo");
+    }
+}

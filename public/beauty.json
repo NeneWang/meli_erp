@@ -1,0 +1,425 @@
+[
+    {
+        "question": "¿Cuál es la función del primer en maquillaje?",
+        "options": [
+            { "label": "A", "value": "Dar color al rostro" },
+            { "label": "B", "value": "Quitar el maquillaje" },
+            { "label": "C", "value": "Preparar la piel y mejorar la adhesión del maquillaje" }
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "¿Qué tipo de base es mejor para pieles grasas?",
+        "options": [
+            { "label": "A", "value": "Base en crema" },
+            { "label": "B", "value": "Base líquida mate" },
+            { "label": "C", "value": "Base en polvo" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cuál es la función del corrector?",
+        "options": [
+            { "label": "A", "value": "Dar color a los labios" },
+            { "label": "B", "value": "Disimular imperfecciones y ojeras" },
+            { "label": "C", "value": "Aplicar sombra de ojos" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el contouring?",
+        "options": [
+            { "label": "A", "value": "Técnica para iluminar el rostro" },
+            { "label": "B", "value": "Técnica para definir y esculpir el rostro" },
+            { "label": "C", "value": "Técnica para aplicar rubor" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué se utiliza para sellar la base de maquillaje?",
+        "options": [
+            { "label": "A", "value": "Rubor" },
+            { "label": "B", "value": "Polvo translúcido" },
+            { "label": "C", "value": "Corrector" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un iluminador?",
+        "options": [
+            { "label": "A", "value": "Un producto para matificar el rostro" },
+            { "label": "B", "value": "Un producto para dar brillo y resaltar ciertas áreas del rostro" },
+            { "label": "C", "value": "Un producto para fijar el maquillaje" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cuál es la función del rubor?",
+        "options": [
+            { "label": "A", "value": "Dar un aspecto saludable y color a las mejillas" },
+            { "label": "B", "value": "Matificar la piel" },
+            { "label": "C", "value": "Cubrir las ojeras" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es un setting spray?",
+        "options": [
+            { "label": "A", "value": "Un spray para dar volumen al cabello" },
+            { "label": "B", "value": "Un spray para fijar el maquillaje" },
+            { "label": "C", "value": "Un spray para limpiar las brochas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué tipo de brocha se usa para aplicar la base líquida?",
+        "options": [
+            { "label": "A", "value": "Brocha plana o kabuki" },
+            { "label": "B", "value": "Brocha en abanico" },
+            { "label": "C", "value": "Brocha para sombras" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es el baking en maquillaje?",
+        "options": [
+            { "label": "A", "value": "Aplicar sombra de ojos" },
+            { "label": "B", "value": "Técnica para sellar el maquillaje con polvo" },
+            { "label": "C", "value": "Técnica para aplicar rubor en capas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el maquillaje en polvo mineral?",
+        "options": [
+            { "label": "A", "value": "Maquillaje a base de minerales naturales" },
+            { "label": "B", "value": "Maquillaje resistente al agua" },
+            { "label": "C", "value": "Maquillaje en crema con acabado mate" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué se utiliza para definir y rellenar las cejas?",
+        "options": [
+            { "label": "A", "value": "Sombra de ojos" },
+            { "label": "B", "value": "Lápiz o gel para cejas" },
+            { "label": "C", "value": "Corrector" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un delineador en gel?",
+        "options": [
+            { "label": "A", "value": "Un delineador líquido que se seca rápidamente" },
+            { "label": "B", "value": "Un delineador en crema de larga duración" },
+            { "label": "C", "value": "Un delineador para labios" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cuál es la técnica smokey eye?",
+        "options": [
+            { "label": "A", "value": "Aplicar colores brillantes en los ojos" },
+            { "label": "B", "value": "Difuminar sombras oscuras para crear un efecto ahumado" },
+            { "label": "C", "value": "Aplicar solo sombras claras" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el maquillaje waterproof?",
+        "options": [
+            { "label": "A", "value": "Maquillaje que resiste al agua" },
+            { "label": "B", "value": "Maquillaje en polvo" },
+            { "label": "C", "value": "Maquillaje que hidrata la piel" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Para qué se utiliza el delineador de labios?",
+        "options": [
+            { "label": "A", "value": "Definir el contorno de los labios y evitar que el labial se corra" },
+            { "label": "B", "value": "Dar volumen a los labios" },
+            { "label": "C", "value": "Aplicar color a los labios" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es el maquillaje HD?",
+        "options": [
+            { "label": "A", "value": "Maquillaje en polvo" },
+            { "label": "B", "value": "Maquillaje de alta definición, ideal para cámaras" },
+            { "label": "C", "value": "Maquillaje con efecto mate" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un labial mate?",
+        "options": [
+            { "label": "A", "value": "Un labial con brillo" },
+            { "label": "B", "value": "Un labial sin brillo, de acabado seco" },
+            { "label": "C", "value": "Un labial hidratante" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cómo se corrige el enrojecimiento de la piel?",
+        "options": [
+            { "label": "A", "value": "Con corrector verde" },
+            { "label": "B", "value": "Con corrector amarillo" },
+            { "label": "C", "value": "Con corrector rosa" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es la técnica de strobing?",
+        "options": [
+            { "label": "A", "value": "Resaltar las zonas altas del rostro con iluminador" },
+            { "label": "B", "value": "Aplicar sombras oscuras para esculpir el rostro" },
+            { "label": "C", "value": "Aplicar rubor en las mejillas" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es una esponja de maquillaje tipo beauty blender?",
+        "options": [
+            { "label": "A", "value": "Una esponja en forma de triángulo" },
+            { "label": "B", "value": "Una esponja en forma de huevo, usada para aplicar y difuminar productos líquidos o en crema" },
+            { "label": "C", "value": "Una brocha redonda para aplicar polvos" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué producto se utiliza para desmaquillar la piel sensible?",
+        "options": [
+            { "label": "A", "value": "Aceite esencial" },
+            { "label": "B", "value": "Agua micelar" },
+            { "label": "C", "value": "Tónico facial" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un primer para ojos?",
+        "options": [
+            { "label": "A", "value": "Una prebase para sombras que mejora la duración y pigmentación" },
+            { "label": "B", "value": "Una crema para eliminar ojeras" },
+            { "label": "C", "value": "Un corrector para párpados" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es el contour stick?",
+        "options": [
+            { "label": "A", "value": "Un lápiz para labios" },
+            { "label": "B", "value": "Un producto en barra para esculpir el rostro" },
+            { "label": "C", "value": "Un iluminador en polvo" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué tipo de brocha se utiliza para aplicar rubor?",
+        "options": [
+            { "label": "A", "value": "Brocha plana" },
+            { "label": "B", "value": "Brocha en abanico" },
+            { "label": "C", "value": "Brocha redonda o angulada" }
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "¿Qué es una paleta de sombras?",
+        "options": [
+            { "label": "A", "value": "Un conjunto de sombras de ojos en diferentes tonos" },
+            { "label": "B", "value": "Una colección de labiales" },
+            { "label": "C", "value": "Un set de brochas para ojos" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es una máscara de pestañas?",
+        "options": [
+            { "label": "A", "value": "Un producto para delinear los ojos" },
+            { "label": "B", "value": "Un producto para dar volumen, longitud y color a las pestañas" },
+            { "label": "C", "value": "Un gel para cejas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Para qué se utiliza el agua de rosas en maquillaje?",
+        "options": [
+            { "label": "A", "value": "Como fijador de maquillaje" },
+            { "label": "B", "value": "Para refrescar la piel y como tónico facial" },
+            { "label": "C", "value": "Para dar color a las mejillas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un lápiz kohl?",
+        "options": [
+            { "label": "A", "value": "Un lápiz para cejas" },
+            { "label": "B", "value": "Un lápiz para labios" },
+            { "label": "C", "value": "Un lápiz delineador de ojos de textura suave" }
+        ],
+        "answer": "C"
+    },
+    {
+        "question": "¿Qué diferencia hay entre un lápiz labial y un gloss?",
+        "options": [
+            { "label": "A", "value": "El lápiz labial es más brillante" },
+            { "label": "B", "value": "El gloss tiene un acabado más brillante y el lápiz labial es más pigmentado" },
+            { "label": "C", "value": "El lápiz labial es líquido y el gloss es sólido" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es un maquillaje nude?",
+        "options": [
+            { "label": "A", "value": "Un maquillaje colorido" },
+            { "label": "B", "value": "Un maquillaje que imita el color natural de la piel" },
+            { "label": "C", "value": "Un maquillaje con brillo" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el delineado de ojos tipo cat-eye?",
+        "options": [
+            { "label": "A", "value": "Un delineado fino en todo el contorno del ojo" },
+            { "label": "B", "value": "Un delineado con una línea extendida hacia fuera, imitando la forma de un ojo de gato" },
+            { "label": "C", "value": "Un delineado grueso en el párpado inferior" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el efecto glowy en maquillaje?",
+        "options": [
+            { "label": "A", "value": "Un maquillaje mate" },
+            { "label": "B", "value": "Un maquillaje con acabado brillante y luminoso" },
+            { "label": "C", "value": "Un maquillaje opaco" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es la técnica cut crease?",
+        "options": [
+            { "label": "A", "value": "Técnica para aplicar rubor" },
+            { "label": "B", "value": "Técnica para definir el pliegue del párpado con sombra" },
+            { "label": "C", "value": "Técnica para delinear los labios" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el maquillaje de fantasía?",
+        "options": [
+            { "label": "A", "value": "Maquillaje para el día a día" },
+            { "label": "B", "value": "Maquillaje artístico con diseños creativos" },
+            { "label": "C", "value": "Maquillaje para resaltar los rasgos naturales" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué son las cejas laminadas?",
+        "options": [
+            { "label": "A", "value": "Cejas con tinte" },
+            { "label": "B", "value": "Cejas peinadas hacia arriba con un efecto de fijación" },
+            { "label": "C", "value": "Cejas delineadas con lápiz" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el maquillaje monocromático?",
+        "options": [
+            { "label": "A", "value": "Maquillaje en tonos marrones" },
+            { "label": "B", "value": "Usar un solo color en ojos, labios y mejillas" },
+            { "label": "C", "value": "Mezclar varios colores en el rostro" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es el maquillaje de ojos halo?",
+        "options": [
+            { "label": "A", "value": "Aplicar sombra clara en el centro del párpado y oscura en los bordes" },
+            { "label": "B", "value": "Maquillaje en tonos pasteles" },
+            { "label": "C", "value": "Maquillaje con delineado gráfico" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es la técnica de no makeup makeup?",
+        "options": [
+            { "label": "A", "value": "Un maquillaje que da un aspecto natural y ligero, como si no se llevara maquillaje" },
+            { "label": "B", "value": "Maquillaje colorido" },
+            { "label": "C", "value": "Maquillaje de noche" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es el maquillaje draping?",
+        "options": [
+            { "label": "A", "value": "Técnica para aplicar rubor en las mejillas y sienes para esculpir el rostro" },
+            { "label": "B", "value": "Técnica para aplicar iluminador" },
+            { "label": "C", "value": "Técnica para aplicar sombras de ojos" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué es el desmaquillante bifásico?",
+        "options": [
+            { "label": "A", "value": "Un desmaquillante en crema" },
+            { "label": "B", "value": "Un desmaquillante con dos fases, una acuosa y una oleosa, para eliminar maquillaje resistente" },
+            { "label": "C", "value": "Un desmaquillante para ojos y labios" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Por qué es importante limpiar las brochas de maquillaje regularmente?",
+        "options": [
+            { "label": "A", "value": "Para evitar que se desgasten" },
+            { "label": "B", "value": "Para prevenir la acumulación de bacterias y mantener la piel saludable" },
+            { "label": "C", "value": "Para mantener el color de las brochas" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué es la doble limpieza facial?",
+        "options": [
+            { "label": "A", "value": "Lavar el rostro dos veces seguidas" },
+            { "label": "B", "value": "Un método que incluye un limpiador a base de aceite seguido de uno a base de agua" },
+            { "label": "C", "value": "Limpiar la piel con agua fría y caliente" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Por qué es importante desmaquillarse antes de dormir?",
+        "options": [
+            { "label": "A", "value": "Para que la piel respire y evitar obstrucciones en los poros" },
+            { "label": "B", "value": "Para que el maquillaje dure más tiempo" },
+            { "label": "C", "value": "Para hidratar la piel" }
+        ],
+        "answer": "A"
+    },
+    {
+        "question": "¿Qué producto es ideal para hidratar la piel antes del maquillaje?",
+        "options": [
+            { "label": "A", "value": "Agua micelar" },
+            { "label": "B", "value": "Crema hidratante" },
+            { "label": "C", "value": "Polvo translúcido" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Qué producto se recomienda para pieles secas antes de aplicar la base?",
+    "options": [
+            { "label": "A", "value": "Polvo matificante" },
+            { "label": "B", "value": "Aceite facial o primer hidratante" },
+            { "label": "C", "value": "Corrector" }
+        ],
+        "answer": "B"
+    },
+    {
+        "question": "¿Cuál es la mejor manera de aplicar el maquillaje para evitar líneas visibles?",
+        "options": [
+            { "label": "A", "value": "Con una brocha gruesa" },
+            { "label": "B", "value": "Difuminando bien los productos con brochas o esponjas" },
+            { "label": "C", "value": "Aplicando mucho polvo" }
+        ],
+        "answer": "B"
+    }
+]
