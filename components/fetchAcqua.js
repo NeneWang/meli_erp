@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   try {
     const config = {
       method: 'get',
-      url: 'http://cloud.acqua-erp.com:80/Beauties/jwt?type=query&id_query=getAllProducts&id_client=api',
+      url: 'http://cloud.acqua-erp.com:80/Coruscis/jwt?type=query&id_query=getAllProducts&id_client=api',
       headers: { 
         'Authorization': 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJ0cyI6ICIxNzI3MDk0MDQyMzE2In0.YQs3EVya3LL3hXcMKB8OWB7ZWIgEB8lbf-7WdwOH5wQ',
         
