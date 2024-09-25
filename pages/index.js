@@ -77,7 +77,7 @@ export default function Home() {
     React.useEffect(async () => {
 
         let initalData = backupProductsData;
-        const data1 = await downloadS3Object('https://code-cli.s3.amazonaws.com/meli/current/products.json');
+        const data1 = await downloadS3Object('https://code-cli.s3.amazonaws.com/mely/current/products.json');
         // console.log('Backup Online 1', data1);
         if (data1 && data1.length > 10) {
             setLoadedProductsData(data1);
@@ -118,7 +118,7 @@ export default function Home() {
                 break;
             case enumProviders.BACKUPONLINE1:
                 
-                const data1 = await downloadS3Object('https://code-cli.s3.amazonaws.com/meli/current/products.json');
+                const data1 = await downloadS3Object('https://code-cli.s3.amazonaws.com/mely/current/products.json');
                 // console.log('Backup Online 1', data1);
                 if (data1 && data1.length > 10) {
                     setLoadedProductsData(data1);
@@ -128,14 +128,14 @@ export default function Home() {
 
 
             case enumProviders.BACKUPONLINE2:
-                // axios.get('https://code-cli.s3.amazonaws.com/meli/backup/products.json').then((response) => {
+                // axios.get('https://code-cli.s3.amazonaws.com/mely/backup/products.json').then((response) => {
                 //     console.log('Backup Line 2', response.data[2]);
                 //     if (response.data && response.data.length > 10) {
                 //         setLoadedProductsData(response.data);
                 //         console.log('Backup Online 2 Products Fetched.');
                 //     }
                 // });
-                const data2 = await downloadS3Object('https://code-cli.s3.amazonaws.com/meli/backup/products.json');
+                const data2 = await downloadS3Object('https://code-cli.s3.amazonaws.com/mely/backup/products.json');
                 if (data2 && data2.length > 10) {
                     setLoadedProductsData(data2);
                     console.log('Backup Online 2 Products Fetched.');
