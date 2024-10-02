@@ -2,8 +2,6 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import React, { useState, useEffect, useRef } from 'react';
 
-import fetchAcqua from '../components/fetchAcqua';
-import fetchUvicorn from '../components/fetchUvicorn';
 
 // Import the products data
 import backupProductsData from '../public/products.json';
@@ -233,7 +231,7 @@ export default function Home() {
                 existingProduct.quantity += 1;
                 return [...prevCart];
             }
-            return [...prevCart, { ...product, totalPrice: precioRedondeo(product.Precio), quantity: 1, discount: 0 }];
+            return [...prevCart, { ...product, totalPrice: precioRedondeo(product.Precio2), quantity: 1, discount: 0 }];
         });
         updateTotal();
     };
@@ -241,7 +239,7 @@ export default function Home() {
     // Function to update the total price
     const updateTotal = () => {
         const newTotal = cart.reduce((acc, item) => {
-            const discountedPrice = item.Precio - (item.Precio * item.discount) / 100;
+            const discountedPrice = item.Precio2 - (item.Precio2 * item.discount) / 100;
             return acc + discountedPrice * item.quantity;
         }, 0);
         setTotal(newTotal);
@@ -266,7 +264,7 @@ export default function Home() {
     // Function to update the price of a product
     const updatePrice = (index, newPrice) => {
         const newCart = [...cart];
-        newCart[index].Precio = newPrice;
+        newCart[index].Precio2 = newPrice;
         setCart(newCart);
         updateTotal();
     };
@@ -317,7 +315,7 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <h1 className={styles.title}>POS Mely</h1>
+                <h1 className={styles.title}>POS Pagode</h1>
                 <p className={styles.description}>
                     Debug Keystroke: <strong>{barcode}</strong>
                 </p>
@@ -348,7 +346,7 @@ export default function Home() {
                                         <p><strong>{product.Detalle}</strong></p>
                                         <p>Codigo de Barra: {product['Cod. Barra']}</p>
 
-                                        <p>Precio: ${precioRedondeo(product.Precio)}</p>
+                                        <p>Precio: ${precioRedondeo(product.Precio2)}</p>
                                         <button onClick={() => addToCart(product)}>Agregar al Carrito</button>
                                     </div>
                                 ))}
@@ -371,7 +369,7 @@ export default function Home() {
                                             ref={priceRef}
                                             type="number"
 
-                                            value={precioRedondeo(item.Precio)}
+                                            value={precioRedondeo(item.Precio2)}
                                             onChange={(e) => updatePrice(index, parseFloat(e.target.value))}
                                             min="0"
 
@@ -418,7 +416,7 @@ export default function Home() {
                                         /> %
                                     </p>
                                     <p>
-                                        Precio Total: ${((item.Precio - (item.Precio * item.discount) / 100) * item.quantity).toFixed(2)}
+                                        Precio Total: ${((item.Precio2 - (item.Precio2 * item.discount) / 100) * item.quantity).toFixed(2)}
                                     </p>
                                     <p>
                                         Codigo de Barra: {item?.['Cod. Barra']}
