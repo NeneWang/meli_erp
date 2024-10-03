@@ -56,6 +56,8 @@ export default function Home() {
     const [total, setTotal] = useState(0);
     const [sourceProvider, setSourceProvider] = useState(enumProviders.BACK);
 
+    const [historialCompra, setHistorialCompra] = useState([]);
+
 
     // State for search functionality
     const [searchQuery, setSearchQuery] = useState('');
@@ -437,7 +439,7 @@ export default function Home() {
                 {/* Action Buttons */}
                 <div className={styles.actionButtons}>
                     <button onClick={() => setCart([])}>F9 - Limpiar</button>
-                    <button onClick={() => alert('No esta disponible xd')}>F5 - Registrar Compra</button>
+                    <button onClick={() => alert('No esta disponible aun.')}>F5 - Registrar Compra</button>
 
                 </div>
                 <br />
