@@ -1,7 +1,7 @@
 import axios from 'axios';
 import cors, { runMiddleware } from '../utils/cors';
 
-export default async function handler(req, res) {
+export async function handler(req, res) {
   // Run the CORS middleware before processing the request
   // await runMiddleware(req, res, cors);
 
@@ -26,7 +26,7 @@ export default async function handler(req, res) {
 }
 
 
-export default async function registerTransactionPersonalServer({ transactionObject } = {}) {
+export async function registerTransactionPersonalServer({ transactionObject } = {}) {
 
   // Save to Maidapi
 
@@ -68,7 +68,7 @@ export default async function registerTransactionPersonalServer({ transactionObj
   }
 }
 
-export default async function getTransactionsPersonalServer(){
+export async function getTransactionsPersonalServer(){
   try {
     const config = {
       method: 'get',

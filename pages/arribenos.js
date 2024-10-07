@@ -63,6 +63,8 @@ export default function Home() {
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
 
+    const [isLoading, setIsLoading] = useState(false);
+
     // Refs for inputs
     const quantityRef = useRef(null);
     const discountRef = useRef(null);
@@ -77,18 +79,25 @@ export default function Home() {
     React.useEffect(async () => {
 
         let initalData = backupProductsData;
+        setIsLoading(true);
         const data1 = await downloadS3Object('https://code-cli.s3.amazonaws.com/mely/current/products.json');
         // console.log('Backup Online 1', data1);
+
+        setIsLoading(false);
+        
         if (data1 && data1.length > 10) {
             setLoadedProductsData(data1);
             console.log('Backup Online 1 Products Fetched.');
-
         }
+
+
     }, []);
 
     async function getFromDataProvider() {
+        setIsLoading(true);
 
         switch (sourceProvider) {
+            
             case enumProviders.BACKUPLOCAL:
                 setLoadedProductsData(backupProductsData);
                 console.log("Local backup done.")
@@ -105,6 +114,7 @@ export default function Home() {
                     if (response.data && response.data.length > 10) {
                         setLoadedProductsData(response.data);
                         console.log('Uvicor Products Fetched.');
+                        setIsLoading(false);
                     }
                 }
                 ).catch((error) => {
@@ -123,6 +133,7 @@ export default function Home() {
                 if (data1 && data1.length > 10) {
                     setLoadedProductsData(data1);
                     console.log('Backup Online 1 Products Fetched.');
+                    setIsLoading(false);
                 }
                 break;
 
@@ -139,6 +150,7 @@ export default function Home() {
                 if (data2 && data2.length > 10) {
                     setLoadedProductsData(data2);
                     console.log('Backup Online 2 Products Fetched.');
+                    setIsLoading(false);
                 }
                 break;
             default:
@@ -318,6 +330,9 @@ export default function Home() {
 
             <main className={styles.main}>
                 <h1 className={styles.title}>POS Arribeños</h1>
+                <p>
+                    {isLoading && 'Cargando Productos...'}
+                </p>
                 <p className={styles.description}>
                     Debug Keystroke: <strong>{barcode}</strong>
                 </p>
@@ -449,13 +464,17 @@ export default function Home() {
                     <select name="server_endpoint" id="" onChange={(e) => { setSourceProvider(e.target.value) }}>
 
                         <option value={enumProviders.BACKUPONLINE1}>Backup Online 1</option>
-                        <option value={enumProviders.ACQUAMIRROR}>Acqua Mirror</option>
                         <option value={enumProviders.BACKUPONLINE2}>Backup Online 2</option>
+                        <option value={enumProviders.ACQUAMIRROR}>Acqua Mirror</option>
                         <option value={enumProviders.BACKUPLOCAL}>Dev Backup</option>
-                        <option value={enumProviders.ACQUA}>Acqua Server</option>
-                        <option value={enumProviders.PERSONAL}>Personal Server</option>
+                        {/* <option value={enumProviders.ACQUA}>Acqua Server</option>
+                        <option value={enumProviders.PERSONAL}>Personal Server</option> */}
                     </select>
                     <button onClick={getFromDataProvider} > Actualizar Productos </button>
+                    <p>
+                        Nota: Pruebe primero con Backup Online 1, Si tarda mucho en cargar puede probar Backup Online 2 o Acqua Mirror. 
+                        Dev Mirror es solo para pruebas locales.
+                    </p>
                     
                 </div>
             </main>

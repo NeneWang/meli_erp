@@ -21,16 +21,16 @@ const enumProviders = {
 
 
 const precioRedondeo = (precio) => {
-  return Math.round(precio);
+    return Math.round(precio);
 }
 
 
 async function downloadS3Object(url) {
     try {
-      const fetchResponse = await fetch(url);
-    //   console.log(await fetchResponse.text());
-    //   console.log(await fetchResponse.json());
-    //   return await fetchResponse.json();
+        const fetchResponse = await fetch(url);
+        //   console.log(await fetchResponse.text());
+        //   console.log(await fetchResponse.json());
+        //   return await fetchResponse.json();
 
         let textResponse = await fetchResponse.text();
         // return jsonResponse;
@@ -40,10 +40,10 @@ async function downloadS3Object(url) {
         return jsonResponse;
 
     } catch (err) {
-      console.error('Error - ', err);
+        console.error('Error - ', err);
     }
-  }
-  
+}
+
 
 export default function Home() {
     const [barcode, setBarcode] = useState('');
@@ -63,6 +63,8 @@ export default function Home() {
     const [searchQuery, setSearchQuery] = useState('');
     const [searchResults, setSearchResults] = useState([]);
 
+    const [isLoading, setIsLoading] = useState(false);
+
     // Refs for inputs
     const quantityRef = useRef(null);
     const discountRef = useRef(null);
@@ -77,8 +79,12 @@ export default function Home() {
     React.useEffect(async () => {
 
         let initalData = backupProductsData;
+        setIsLoading(true);
         const data1 = await downloadS3Object('https://code-cli.s3.amazonaws.com/mely/current/products.json');
         // console.log('Backup Online 1', data1);
+
+        setIsLoading(false);
+        
         if (data1 && data1.length > 10) {
             setLoadedProductsData(data1);
             console.log('Backup Online 1 Products Fetched.');
@@ -86,9 +92,12 @@ export default function Home() {
         }
     }, []);
 
+    
     async function getFromDataProvider() {
+        setIsLoading(true);
 
         switch (sourceProvider) {
+            
             case enumProviders.BACKUPLOCAL:
                 setLoadedProductsData(backupProductsData);
                 console.log("Local backup done.")
@@ -105,6 +114,7 @@ export default function Home() {
                     if (response.data && response.data.length > 10) {
                         setLoadedProductsData(response.data);
                         console.log('Uvicor Products Fetched.');
+                        setIsLoading(false);
                     }
                 }
                 ).catch((error) => {
@@ -123,6 +133,7 @@ export default function Home() {
                 if (data1 && data1.length > 10) {
                     setLoadedProductsData(data1);
                     console.log('Backup Online 1 Products Fetched.');
+                    setIsLoading(false);
                 }
                 break;
 
@@ -139,6 +150,7 @@ export default function Home() {
                 if (data2 && data2.length > 10) {
                     setLoadedProductsData(data2);
                     console.log('Backup Online 2 Products Fetched.');
+                    setIsLoading(false);
                 }
                 break;
             default:
@@ -444,19 +456,23 @@ export default function Home() {
                 </div>
                 <br />
                 <div className={styles.actionButtons}>
-                    
+
                     <p>{sourceProvider}</p>
                     <select name="server_endpoint" id="" onChange={(e) => { setSourceProvider(e.target.value) }}>
 
                         <option value={enumProviders.BACKUPONLINE1}>Backup Online 1</option>
-                        <option value={enumProviders.ACQUAMIRROR}>Acqua Mirror</option>
                         <option value={enumProviders.BACKUPONLINE2}>Backup Online 2</option>
+                        <option value={enumProviders.ACQUAMIRROR}>Acqua Mirror</option>
                         <option value={enumProviders.BACKUPLOCAL}>Dev Backup</option>
-                        <option value={enumProviders.ACQUA}>Acqua Server</option>
-                        <option value={enumProviders.PERSONAL}>Personal Server</option>
+                        {/* <option value={enumProviders.ACQUA}>Acqua Server</option>
+                        <option value={enumProviders.PERSONAL}>Personal Server</option> */}
                     </select>
                     <button onClick={getFromDataProvider} > Actualizar Productos </button>
-                    
+                    <p>
+                        Nota: Pruebe primero con Backup Online 1, Si tarda mucho en cargar puede probar Backup Online 2 o Acqua Mirror.
+                        Dev Mirror es solo para pruebas locales.
+                    </p>
+
                 </div>
             </main>
         </div>
